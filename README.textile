@@ -1,0 +1,3 @@
+h1. slf4j-mongodb
+
+A "slf4j":http://www.slf4j.org implementation writing log messages into "mongoDB":http://www.mongodb.org/.
