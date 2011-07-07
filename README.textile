@@ -3,19 +3,19 @@ h1. slf4j-mongodb
 A "slf4j":http://www.slf4j.org implementation writing log messages into "mongoDB":http://www.mongodb.org/.
 
 
-h2. Installation
+h3. Installation
 
 # put "slf4j-api-1.6.1":http://repo2.maven.org/maven2/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar, "slf4j-mongodb-1.0.0.jar":https://github.com/downloads/smilebase/slf4j-mongodb/slf4j-mongodb-1.0.0.jar and "mongo-2.6.3.jar":https://github.com/downloads/mongodb/mongo-java-driver/mongo-2.6.3.jar on your classpath,
 # "start mongod":http://www.mongodb.org/display/DOCS/Quickstart and
 # start your application using slf4j-mongodb. All log messages of your application will be written into mongoDB.
 
 
-h2. Design decissions
+h3. Design decissions
 
 # different log levels are written into different mongoDB collections
 
 
-h2. TODOs
+h3. TODOs
 
 # slf4j-mongodb connect to mongoDB via localhost, make this more configurable
 # timestamps for log messages
